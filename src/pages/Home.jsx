@@ -9,12 +9,12 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>El Shaddai</title>
+        <title>Iglesia El Shaddai - </title>
         <meta name="description" content="Descripción de tu página de inicio" />
         {/* Agrega otras meta etiquetas si es necesario */}
       </Helmet>
       <Header
-        title="El Shaddai"
+        title="El Shaddai - Iglesia Evangélica Misionera Pentecostés"
         description="Iglesia Evangélica Misionera Pentecostés"
         keywords="iglesia, evangelica, misionera, el shaddai"
       />
