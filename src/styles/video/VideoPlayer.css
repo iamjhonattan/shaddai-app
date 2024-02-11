@@ -42,10 +42,10 @@
 }
 
 .video-player-wrapper .next-stream {
-  top: 50%; /* Posiciona el texto abajo */
-  font-size: 2.5vw; /* Tamaño del texto (responsive) */
+  top: 55%; /* Posiciona el texto abajo y un poco más separado del cronómetro */
+  font-size: 2vw; /* Tamaño del texto (responsive) */
   background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
-  padding: 1vw; /* Añade espacio alrededor del texto (responsive) */
+  padding: 0.5vw; /* Añade un espacio más pequeño alrededor del texto (responsive) */
   border-radius: 5px; /* Bordes redondos */
 }
 
@@ -55,8 +55,7 @@
   }
 
   .video-player-wrapper .next-stream {
-    font-size: 4vw; /* Tamaño del texto para pantallas pequeñas */
-    padding: 2vw; /* Espacio alrededor del texto para pantallas pequeñas */
+    font-size: 3.5vw; /* Tamaño del texto para pantallas pequeñas */
+    padding: 0.3vw; /* Espacio alrededor del texto más pequeño para pantallas pequeñas */
   }
 }
-
