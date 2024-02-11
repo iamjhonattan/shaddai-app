@@ -2,9 +2,9 @@
 
 .video-player-wrapper {
   position: relative;
-  width: 90%; /* Anchura ajustable según tus necesidades */
-  margin: 20px auto; /* Centrado horizontal y margen superior e inferior */
-  border-radius: 10px; /* Bordes redondos */
+  width: 100%; /* Anchura ajustable según tus necesidades */
+  margin: 0px auto; /* Centrado horizontal y margen superior e inferior */
+  border-radius: 0px; /* Bordes redondos */
   overflow: hidden; /* Para ocultar cualquier parte del reproductor que sobresalga del contenedor */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
