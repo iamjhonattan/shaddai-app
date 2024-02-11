@@ -12,7 +12,7 @@ const Home = () => {
       <Header
         title="El Shaddai - Iglesia Evangélica Misionera Pentecostés"
         description="Iglesia Evangélica Misionera Pentecostés, La Candelaria, Parroquia Caña de Azúcar"
-        keywords="iglesia, evangelica, misionera, el shaddai"
+        keywords="iglesia, evangelica, misionera, el shaddai, venezuela"
       />
       <Body />
       <Footer />
