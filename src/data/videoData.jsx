@@ -3,7 +3,7 @@ import imgPlayer from '../image/img-player.png';
 
 const videoData = {
   live: true,
-  url: 'https://www.facebook.com/shaddai.live/videos/1103600610770299/',
+  url: 'https://www.facebook.com/shaddai.live/videos/718545273720170/',
   imagePath: imgPlayer,
   nextStreamTime: '2024-02-12 09:00:00',
   imageStyle: {
