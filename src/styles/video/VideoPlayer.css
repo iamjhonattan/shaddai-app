@@ -13,3 +13,27 @@
   width: 100%;
   height: 100%;
 }
+
+.video-player-wrapper .no-stream {
+  position: relative;
+}
+
+.video-player-wrapper .countdown {
+  position: absolute;
+  top: 50%; /* Coloca el cronómetro en el centro verticalmente */
+  left: 50%; /* Coloca el cronómetro en el centro horizontalmente */
+  transform: translate(-50%, -50%); /* Centra el cronómetro */
+  font-size: 3rem; /* Tamaño del cronómetro */
+  color: white; /* Color del texto del cronómetro */
+  font-family: 'Arial', sans-serif; /* Fuente del cronómetro */
+}
+
+.video-player-wrapper .next-stream {
+  position: absolute;
+  top: calc(50% + 2rem); /* Posiciona el texto debajo del cronómetro */
+  left: 50%; /* Coloca el texto en el centro horizontalmente */
+  transform: translateX(-50%); /* Centra el texto horizontalmente */
+  font-size: 1.5rem; /* Tamaño del texto */
+  color: white; /* Color del texto */
+  font-family: 'Arial', sans-serif; /* Fuente del texto */
+}

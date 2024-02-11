@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import '../../styles/home/Header.css';
-import logo from '../../images/logo.svg';
+import logo from '../../image/logo.svg';
 
 const Header = ({ title, description, keywords }) => {
   return (
