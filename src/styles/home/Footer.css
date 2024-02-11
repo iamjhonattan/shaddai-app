@@ -1,0 +1,23 @@
+/* Estilos para el footer en la página de inicio */
+.footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+.whatsapp-button {
+  background-color: #218f49; /* Color del botón de WhatsApp */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor de apuntador */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: all 0.3s ease; /* Transición suave de propiedades al pasar el mouse */
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Cambio de color al pasar el cursor sobre el botón */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}

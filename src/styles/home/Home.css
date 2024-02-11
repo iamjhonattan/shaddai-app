@@ -1,0 +1,20 @@
+/* Estilos base para el componente Home */
+
+.home {
+    /* Estilos generales para el contenedor principal */
+  }
+  
+  /* Media query para dispositivos con un ancho máximo de 768px */
+  @media screen and (max-width: 768px) {
+    .home {
+      /* Estilos específicos para dispositivos móviles o pantallas más pequeñas */
+    }
+  }
+  
+  /* Media query para dispositivos con un ancho máximo de 1024px */
+  @media screen and (max-width: 1024px) {
+    .home {
+      /* Estilos específicos para tablets u otras pantallas medianas */
+    }
+  }
+  

@@ -1,0 +1,30 @@
+/* Estilos para el header en la página de inicio */
+
+.header {
+    display: flex;
+    background-color: #d3d3d3; /* Color de fondo del header */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .logo {
+    font-size: 24px; /* Tamaño de fuente del logo */
+  }
+
+  .logo img {
+    max-width: 250px; /* Establece el tamaño máximo de la imagen del logo */
+    /* Estilos adicionales para la imagen del logo */
+  }
+  
+  .social-icons {
+    display: flex; /* Usa flexbox para alinear los iconos de redes sociales */
+  }
+  
+  .social-icons a {
+    color: #000000; /* Color de los iconos de redes sociales */
+    margin-left: 10px; /* Espacio entre los iconos */
+  }
+  

@@ -1,0 +1,36 @@
+/* Estilos para el cuerpo del sitio */
+body {
+  font-family: Arial, sans-serif; /* Tipo de fuente predeterminado */
+  background-color: #f0f0f0; /* Color de fondo del cuerpo */
+  color: #333; /* Color de texto predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px; /* Ancho máximo del contenedor principal */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+  color: inherit; /* Hereda el color de texto del cuerpo */
+  margin-top: 0; /* Elimina el margen superior predeterminado */
+}
+
+/* Estilos para los párrafos */
+p {
+  line-height: 1.5; /* Altura de línea */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff; /* Color de enlaces */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al hacer hover */
+}
