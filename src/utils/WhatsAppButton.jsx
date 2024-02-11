@@ -8,7 +8,7 @@ const WhatsAppButton = ({ phoneNumber, message }) => {
 
   return (
     <button className="whatsapp-button" onClick={handleWhatsAppClick}>
-      Acceder al canal de WhatsApp
+      Acceder al grupo de WhatsApp
     </button>
   );
 };

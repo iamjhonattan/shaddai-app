@@ -23,17 +23,28 @@
   top: 50%; /* Coloca el cronómetro en el centro verticalmente */
   left: 50%; /* Coloca el cronómetro en el centro horizontalmente */
   transform: translate(-50%, -50%); /* Centra el cronómetro */
-  font-size: 3rem; /* Tamaño del cronómetro */
+  font-size: 4rem; /* Tamaño del cronómetro */
   color: white; /* Color del texto del cronómetro */
   font-family: 'Arial', sans-serif; /* Fuente del cronómetro */
 }
 
 .video-player-wrapper .next-stream {
   position: absolute;
-  top: calc(50% + 2rem); /* Posiciona el texto debajo del cronómetro */
+  top: calc(50% + 3rem); /* Posiciona el texto debajo del cronómetro */
   left: 50%; /* Coloca el texto en el centro horizontalmente */
   transform: translateX(-50%); /* Centra el texto horizontalmente */
   font-size: 1.5rem; /* Tamaño del texto */
   color: white; /* Color del texto */
   font-family: 'Arial', sans-serif; /* Fuente del texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
+  padding: 0.5rem; /* Añade espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondos */
+}
+
+.video-player-wrapper .no-stream img {
+  transition: transform 0.3s ease-in-out; /* Transición suave al hacer hover */
+}
+
+.video-player-wrapper .no-stream img:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% al hacer hover */
 }
