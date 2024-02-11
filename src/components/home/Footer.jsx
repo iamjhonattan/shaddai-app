@@ -4,7 +4,7 @@ import '../../styles/home/Footer.css';
 
 const Footer = () => {
   // Número de teléfono y mensaje para WhatsApp
-  const phoneNumber = '+584243361352';
+  const phoneNumber = '+584122575852';
   const message = '¡Hola! Quiero acceder al grupo de WhatsApp.';
 
   return (
